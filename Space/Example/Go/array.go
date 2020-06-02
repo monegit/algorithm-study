@@ -3,9 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	a := []int{1, 2, 3, 4, 5}
+	arr := []int{1, 2, 3, 4, 5}
+	_arr := &arr
 
 	fmt.Printf("len: %d\n"+
-		"array: %v\n",
-		len(a), a)
+		"array: %v\n"+
+		"_array[0]: %d\n",
+		len(arr), arr, (*_arr)[0])
 }
