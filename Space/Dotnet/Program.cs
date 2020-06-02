@@ -6,7 +6,9 @@ namespace Dotnet
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hell, world!");
+            string str = string.Empty;
+            str = Console.ReadLine();
+            Console.WriteLine(str);
         }
     }
 }
