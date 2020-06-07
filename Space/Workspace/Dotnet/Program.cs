@@ -9,9 +9,7 @@ namespace Dotnet
     {
         static void Main(string[] args)
         {
-            WebClient dd = new WebClient();
-            Console.WriteLine(dd.DownloadString("https://github.com/monegit"));
-
+            Console.WriteLine("hello world");
         }
     }
 }

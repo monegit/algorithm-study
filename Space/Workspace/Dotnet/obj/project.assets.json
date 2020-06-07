@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/bagjong-won/Desktop/Algorithm/Space/Dotnet/Dotnet.csproj",
+      "projectUniqueName": "/Users/bagjong-won/Desktop/Algorithm/Space/Workspace/Dotnet/Dotnet.csproj",
       "projectName": "Dotnet",
-      "projectPath": "/Users/bagjong-won/Desktop/Algorithm/Space/Dotnet/Dotnet.csproj",
+      "projectPath": "/Users/bagjong-won/Desktop/Algorithm/Space/Workspace/Dotnet/Dotnet.csproj",
       "packagesPath": "/Users/bagjong-won/.nuget/packages/",
-      "outputPath": "/Users/bagjong-won/Desktop/Algorithm/Space/Dotnet/obj/",
+      "outputPath": "/Users/bagjong-won/Desktop/Algorithm/Space/Workspace/Dotnet/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/Space/Dotnet/bin/Debug/netcoreapp3.1/Dotnet.dll",
+            "program": "${workspaceFolder}/Space/Workspace/Dotnet/bin/Debug/netcoreapp3.1/Dotnet.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/Space/Dotnet",
+            "cwd": "${workspaceFolder}/Space/Workspace/Dotnet",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "stopAtEntry": false,
             "console": "integratedTerminal",
