@@ -4,6 +4,7 @@ import "fmt"
 
 func main() {
 	arr := []int{1, 2, 3, 4, 5}
+	arr = append(arr, 10)
 	_arr := &arr
 
 	fmt.Printf("len: %d\n"+
