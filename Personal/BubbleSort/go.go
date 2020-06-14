@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	arr := []int{2, 3, 4, 1, 5}
+	arr := []int{2, 3, 4, 1, 4, 5}
 
 	fmt.Printf("%v\n", StartToEndBubbleSort(arr))
 }
