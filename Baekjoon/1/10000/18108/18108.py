@@ -1,3 +1,3 @@
 _input = int(input())
 
-print(_input - 543)
+print(_input - 543) 
