@@ -14,6 +14,7 @@ void Eratosthenes(int n) {
     for (int i = 2; i * i <= n; i++)
         if (PrimeArray[i])
             for (int j = i * i; j <= n; j+=i)
+                // 소수 j의 PrimeArray는 소수로 바꿈
                 PrimeArray[j] = false;
 
     for (int i = 0; i <= n; i++) {
