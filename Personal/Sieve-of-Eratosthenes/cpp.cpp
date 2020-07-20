@@ -6,7 +6,7 @@ void Eratosthenes(int n) {
     if(n<=1) return;
 
     bool* PrimeArray = new bool[n + 1];
-
+    
     // 0과 1은 소수가 아니므로 2부터 n까지 반복
     for (int i = 2; i <= n; i++)
         // 2~n까지 PrimeArray의 모든 값들을 소수로 임시 정의
