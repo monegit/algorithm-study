@@ -8,6 +8,5 @@ for i in range(1, _input + 1):
         arr = list(map(int, str(i)))
         if arr[0] - arr[1] == arr[1] - arr[2]:
             count+=1
-            break
 
 print(count)
