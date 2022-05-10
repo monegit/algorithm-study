@@ -1,5 +1,8 @@
 # todo
-input=sys.stdin.readline
+import sys
+
+
+input = sys.stdin.readline
 
 count = int(input())
 _list = list()
@@ -36,6 +39,7 @@ def pop(list):
         _list.pop(len(_list)-1)
         _return = trunk
     return _return
+
 
 def switch(case, list):
     if(case[0] == "empty"):
