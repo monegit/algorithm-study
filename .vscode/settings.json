@@ -4,5 +4,10 @@
     "ostream": "cpp"
   },
   "python.analysis.typeCheckingMode": "basic",
-  "python.formatting.provider": "yapf"
+  "python.formatting.provider": "yapf",
+
+  "[python]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4
+  }
 }
